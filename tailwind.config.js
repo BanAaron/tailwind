@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}', 'index.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter var'],
+      },
+    },
   },
   plugins: [],
 }
