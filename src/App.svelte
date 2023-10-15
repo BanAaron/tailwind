@@ -63,7 +63,9 @@
   </div>
   <div
     class="col-start-1 col-end-2 flex h-screen flex-col justify-center bg-gradient-to-b from-slate-900 p-7 text-base text-slate-400 space-y-3 to-slate-950 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
-    <h1 id="about" class="text-xl font-extrabold tracking-wide text-slate-100">ABOUT</h1>
+    <h1 id="about" class="text-xl font-extrabold tracking-wide text-slate-100 "><a href="#about"
+                                                                                   class="hover:text-teal-300">ABOUT</a>
+    </h1>
     <p>For me, it all started in 2006, playing Age of Empires 2 and EverQuest with my Dad on his "work computer". From
       then on I
       was obsessed with video games and how they worked.</p>
@@ -77,6 +79,8 @@
   </div>
   <div
     class="col-start-1 col-end-2 flex h-screen flex-col justify-center from-slate-900 p-7 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
-    <a id="work"><h1 class="text-xl font-extrabold tracking-wide text-slate-100">WORK</h1></a>
+    <h1 id="work" class="text-xl font-extrabold tracking-wide text-slate-100"><a href="#work"
+                                                                                 class="hover:text-teal-300">WORK</a>
+    </h1>
   </div>
 </div>
