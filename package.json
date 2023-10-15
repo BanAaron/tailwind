@@ -8,10 +8,26 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "prettier": {
+    "printWidth": 80,
+    "semi": false,
+    "bracketSameLine": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "arrowParens": "always",
+    "singleAttributePerLine": true,
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
     "svelte": "^4.0.5",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
