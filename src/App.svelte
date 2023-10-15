@@ -163,11 +163,11 @@
           <a href="https://github.com/BanAaron/aaron-barratt-website" target="_blank" class="hover:text-teal-300">aaronbarratt.dev</a>
         </header>
         <p>
-          This website! Made to show off my HTML, CSS, and design skills. Built with <a href="https://tailwindcss.com/" target="_blank" class="text-slate-300 hover:text-teal-300">Svelte</a> and <a
+          This website! Made to show off my HTML, CSS, and design skills. Built with <a href="https://svelte.dev/" target="_blank" class="text-slate-300 hover:text-teal-300">Svelte</a> and <a
           href="https://tailwindcss.com/" target="_blank" class="text-slate-300 hover:text-teal-300">Tailwind</a>.
         </p>
         <p>
-          Using  eactive design principles to work flawlessly for mobile and desktop.
+          Using eactive design principles to work flawlessly for mobile and desktop.
         </p>
         <ul class="flex flex-wrap gap-2">
           <li class="mt-1">
