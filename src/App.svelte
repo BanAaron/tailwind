@@ -11,7 +11,7 @@
     <div
       class="flex h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-800 to-slate-900 space-y-2.5 md:to-45% md:to-slate-950 md:bg-gradient-to-r md:from-slate-900">
       <img class="m-3 h-64 w-auto rounded-full border-2 border-teal-300 object-left shadow-xl dark:shadow-gray-800"
-           src="src/assets/aaron.jpeg"
+           src="/assets/aaron.jpeg"
            alt="selfie of Aaron Barratt">
       <a href="/"><h1 class="text-5xl font-semibold text-white md:text-5xl">Aaron Barratt</h1></a>
       <h2 class="text-2xl text-slate-300 md:text-2xl">Full-stack Developer</h2>
