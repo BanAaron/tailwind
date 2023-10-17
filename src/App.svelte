@@ -1,18 +1,43 @@
+<script>
+  let showMobileNavMenu
+
+  const toggleShowMobileNavMenu = () => {
+    if (showMobileNavMenu === "hidden") {
+      showMobileNavMenu = ""
+    } else {
+      showMobileNavMenu = "hidden"
+    }
+  };
+</script>
+
 <div id="container" class="grid grid-cols-1 text-slate-50 md:grid-cols-2 xl:grid-cols-3">
   <!-- mobile burger menu -->
-  <div id="burger" class="fixed top-0 right-0 z-50 m-5 origin-right md:hidden">
+  <div class="fixed top-0 right-0 z-50 m-5 origin-right md:hidden"
+       role="button"
+       id="burger"
+       aria-pressed="false"
+       on:click={toggleShowMobileNavMenu}>
     <div class="space-y-2">
-      <div class="w-8 bg-gray-400 h-0.5"></div>
-      <div class="w-8 bg-gray-400 h-0.5"></div>
-      <div class="w-8 bg-gray-400 h-0.5"></div>
+      <div class="w-8 bg-slate-300 h-0.5"></div>
+      <div class="w-8 bg-slate-300 h-0.5"></div>
+      <div class="w-8 bg-slate-300 h-0.5"></div>
     </div>
+  </div>
+  <!-- nav popup thing -->
+  <div class="fixed top-16 right-5 w-36 to-slate-950 bg-gradient-to-r from-50% from-slate-900 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}">
+    <ul class="flex flex-col m-5 gap-2 font-semibold text-xl tracking-wide">
+      <li><a href="#splash">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
   </div>
   <!-- splash screen section -->
   <div id="splash"
        class="col-start-1 col-end-1 h-auto min-h-screen w-auto min-w-screen content-center justify-center md:fixed md:w-1/2 xl:fixed xl:w-1/3">
     <div
       class="flex h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-800 to-slate-900 space-y-2.5 md:to-45% md:to-slate-950 md:bg-gradient-to-r md:from-slate-900">
-      <img class="m-3 h-64 w-auto rounded-full border-2 border-teal-300 object-left shadow-xl dark:shadow-gray-800"
+      <img class="m-3 h-64 w-auto rounded-full border-2 border-teal-300 object-left shadow-xl dark:shadow-slate-950"
            src="/assets/aaron.jpeg"
            alt="selfie of Aaron Barratt">
       <a href="/"><h1 class="text-5xl font-semibold text-white md:text-5xl">Aaron Barratt</h1></a>
@@ -97,7 +122,7 @@
   </div>
   <!-- jobs section -->
   <div
-    class="col-start-1 col-end-2 flex h-auto flex-col justify-center from-slate-900 p-7 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
+    class="col-start-1 col-end-2 flex h-auto min-h-screen flex-col justify-center from-slate-900 p-7 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
     <h1 id="work" class="text-xl font-extrabold uppercase tracking-wide text-slate-100"><a href="#work" class="hover:text-teal-300">Work</a></h1>
     <div id="jobs" class="grid grid-cols-1 gap-7">
       <!-- Dentsu -->
@@ -165,7 +190,7 @@
   </div>
   <!-- projects -->
   <div
-    class="col-start-1 col-end-2 flex h-auto flex-col justify-center from-slate-900 p-7 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
+    class="col-start-1 col-end-2 flex h-auto min-h-screen pt-40 flex-col justify-center from-slate-900 p-7 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
     <h1 id="projects" class="text-xl font-extrabold uppercase tracking-wide text-slate-100"><a href="#projects" class="hover:text-teal-300">Projects</a></h1>
     <div id="projects" class="grid grid-cols-1 gap-7">
       <!-- aaronbarratt.dev -->
@@ -271,13 +296,13 @@
     </div>
     <!-- footer -->
     <div
-      class="col-start-1 col-end-2 flex h-auto flex-col justify-center from-slate-900 pt-14 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
+      class="col-start-1 pt-20 col-end-2 flex h-auto flex-col justify-center from-slate-900 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
       <footer>
         <p class="text-xs">
           Coded with <a href="https://www.jetbrains.com/webstorm/" class="text-slate-300 hover:text-teal-300">IntelliJ</a>.
           Built with <a href="https://svelte.dev/" class="text-slate-300 hover:text-teal-300">Svelte</a>
-          and <a href="https://svelte.dev/" class="text-slate-300 hover:text-teal-300">Tailwind</a>.
-          Deployed by <a href="https://svelte.dev/" class="text-slate-300 hover:text-teal-300">Vercel</a>
+          and <a href="https://tailwindcss.com/" class="text-slate-300 hover:text-teal-300">Tailwind</a>.
+          Deployed by <a href="https://vercel.com/" class="text-slate-300 hover:text-teal-300">Vercel</a>
           ❤️
         </p>
         <div class="flex justify-center md:hidden">
