@@ -25,7 +25,7 @@
   </div>
   <!-- nav popup thing -->
   <div class="fixed top-16 right-5 w-36 to-slate-950 bg-gradient-to-r from-50% from-slate-900 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}">
-    <ul class="m-5 flex flex-col gap-2 text-xl font-semibold tracking-wide">
+    <ul class="m-5 flex flex-col gap-2 text-xl tracking-wide">
       <li><a href="#splash">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#work">Work</a></li>
@@ -304,13 +304,13 @@
     <!-- footer -->
     <div
       class="col-start-1 col-end-2 flex h-auto flex-col justify-center from-slate-900 pt-20 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 lg:col-start-2 lg:col-end-4">
-      <footer>
+      <footer class="text-center md:text-left">
         <p class="text-xs">
           Coded with <a class="text-slate-300 hover:text-teal-300" href="https://www.jetbrains.com/webstorm/">IntelliJ</a>.
           Built with <a class="text-slate-300 hover:text-teal-300" href="https://svelte.dev/">Svelte</a>
           and <a class="text-slate-300 hover:text-teal-300" href="https://tailwindcss.com/">Tailwind</a>.
           Deployed by <a class="text-slate-300 hover:text-teal-300" href="https://vercel.com/">Vercel</a>
-          ❤️
+          <span class="text-red-600">❤️</span>
         </p>
         <div class="flex justify-center md:hidden">
           <a href="#splash">
