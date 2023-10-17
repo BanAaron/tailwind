@@ -38,13 +38,16 @@
     <div
       class="flex h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-800 to-slate-900 space-y-2.5 md:to-45% md:to-slate-950 md:bg-gradient-to-r md:from-slate-900">
       <img alt="selfie of Aaron Barratt"
+           width="256"
+           height="256"
            class="m-3 h-64 w-auto rounded-full border-2 border-teal-300 object-left shadow-xl dark:shadow-slate-950"
            src="/assets/aaron.jpeg">
       <a href="/"><h1 class="text-5xl font-semibold text-white md:text-5xl">Aaron Barratt</h1></a>
       <h2 class="text-2xl text-slate-300 md:text-2xl">Full-stack Developer</h2>
       <div class="flex gap-x-2.5">
         <a href="https://github.com/banaaron" target="_blank">
-          <svg class="h-8 w-auto text-slate-400 hover:text-teal-300"
+          <svg aria-label="check out my GitHub"
+               class="h-8 w-auto text-slate-400 hover:text-teal-300"
                fill="none"
                stroke="currentColor"
                stroke-linecap="round"
@@ -59,6 +62,7 @@
           <svg class="h-8 w-auto text-slate-400 hover:text-teal-300"
                fill="none"
                stroke="currentColor"
+               aria-label="checkout my LinkedIn"
                stroke-linecap="round"
                stroke-linejoin="round"
                stroke-width="1.5"
@@ -74,6 +78,7 @@
                stroke="currentColor"
                stroke-linecap="round"
                stroke-linejoin="round"
+               aria-label="checkout my Twitter"
                stroke-width="1.5"
                viewBox="0 0 24 24">
             <path
@@ -86,6 +91,7 @@
                stroke="currentColor"
                stroke-linecap="round"
                stroke-linejoin="round"
+               aria-label="checkout my Instagram"
                stroke-width="1.5"
                viewBox="0 0 24 24">
             <rect height="20" rx="5" ry="5" width="20" x="2" y="2"/>
@@ -113,8 +119,9 @@
       and <a class="text-slate-300 hover:text-teal-300" href="#dentsu">web development</a>.
     </p>
     <p>
-      Fast forward today and I have had the privilege to work in such roles as <a class="text-slate-300 hover:text-teal-300" href="#welcome-break">database administrator</a>, <a class="text-slate-300 hover:text-teal-300"
-                                                                                                                                                                                  href="#userzoom">support
+      Fast forward today and I have had the privilege to work in such roles as <a class="text-slate-300 hover:text-teal-300" href="#welcome-break">database administrator</a>, <a
+      class="text-slate-300 hover:text-teal-300"
+      href="#userzoom">support
       engineer</a>, and currently a <a class="text-slate-300 hover:text-teal-300" href="#dentsu">full-stack developer</a> at <a class="text-slate-300 hover:text-teal-300"
                                                                                                                                 href="https://www.dentsu.com/uk/en"
                                                                                                                                 target="_blank">Dentsu</a>
