@@ -9,7 +9,7 @@
   </div>
   <!-- splash screen section -->
   <div id="splash"
-       class="col-start-1 col-end-1 h-screen w-auto content-center justify-center md:fixed md:w-1/2 xl:fixed xl:w-1/3">
+       class="col-start-1 col-end-1 h-auto min-h-screen w-auto min-w-screen content-center justify-center md:fixed md:w-1/2 xl:fixed xl:w-1/3">
     <div
       class="flex h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-800 to-slate-900 space-y-2.5 md:to-45% md:to-slate-950 md:bg-gradient-to-r md:from-slate-900">
       <img class="m-3 h-64 w-auto rounded-full border-2 border-teal-300 object-left shadow-xl dark:shadow-gray-800"
@@ -280,7 +280,7 @@
           Deployed by <a href="https://svelte.dev/" class="text-slate-300 hover:text-teal-300">Vercel</a>
           ❤️
         </p>
-        <div class="flex justify-center">
+        <div class="flex justify-center md:hidden">
           <a href="#splash">
             <svg class="mt-2 h-10 fill-slate-300 hover:fill-teal-300" viewBox="-3 0 32 32" xmlns="http://www.w3.org/2000/svg">
               <g id="icomoon-ignore">
