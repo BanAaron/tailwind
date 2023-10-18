@@ -1,13 +1,13 @@
 <script>
   let showMobileNavMenu = "hidden"
 
-  const toggleShowMobileNavMenu = () => {
+  function toggleShowMobileNavMenu() {
     if (showMobileNavMenu === "hidden") {
       showMobileNavMenu = ""
     } else {
       showMobileNavMenu = "hidden"
     }
-  };
+  }
 </script>
 
 <div class="grid grid-cols-1 text-slate-50 md:grid-cols-2 xl:grid-cols-3" id="container">
@@ -15,18 +15,19 @@
   <div aria-pressed="false"
        class="fixed top-0 right-0 z-50 m-5 origin-right md:hidden"
        id="burger"
-       on:click={toggleShowMobileNavMenu}
        role="button">
-    <div class="space-y-2">
-      <div class="w-8 bg-slate-300 h-0.5"></div>
-      <div class="w-8 bg-slate-300 h-0.5"></div>
-      <div class="w-8 bg-slate-300 h-0.5"></div>
-    </div>
+    <a href="#burger" on:click={toggleShowMobileNavMenu}>
+      <div class="space-y-2">
+        <div class="w-8 bg-slate-300 h-0.5"></div>
+        <div class="w-8 bg-slate-300 h-0.5"></div>
+        <div class="w-8 bg-slate-300 h-0.5"></div>
+      </div>
+    </a>
   </div>
   <!-- nav popup thing -->
   <div class="fixed top-16 right-5 w-36 to-slate-950 bg-gradient-to-r from-50% from-slate-900 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}">
     <ul class="m-5 flex flex-col gap-2 text-xl tracking-wide">
-      <li><a href="#splash">Home</a></li>
+      <li><a href="#splash" on:click={toggleShowMobileNavMenu}>Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="#projects">Projects</a></li>
