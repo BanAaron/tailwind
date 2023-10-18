@@ -28,9 +28,9 @@
   <div class="fixed top-16 right-5 w-36 to-slate-950 bg-gradient-to-r from-50% from-slate-900 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}">
     <ul class="m-5 flex flex-col gap-2 text-xl tracking-wide">
       <li><a href="#splash" on:click={toggleShowMobileNavMenu}>Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about" on:click={toggleShowMobileNavMenu}>About</a></li>
+      <li><a href="#work" on:click={toggleShowMobileNavMenu}>Work</a></li>
+      <li><a href="#projects" on:click={toggleShowMobileNavMenu}>Projects</a></li>
     </ul>
   </div>
   <!-- splash screen section -->
