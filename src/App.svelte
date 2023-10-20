@@ -103,7 +103,9 @@
       </div>
       <ul class="hidden  md:flex flex-row justify-evenly gap-2.5">
         <li><a class="hover:text-teal-300" href="#about">About</a></li>
+        <li>-</li>
         <li><a class="hover:text-teal-300" href="#work">Work</a></li>
+        <li>-</li>
         <li><a class="hover:text-teal-300" href="#project">Projects</a></li>
       </ul>
     </div>
