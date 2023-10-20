@@ -37,7 +37,7 @@
   <div class="col-start-1 col-end-1 h-auto min-h-screen w-auto content-center justify-center min-w-screen md:fixed md:w-1/2 xl:fixed xl:w-1/3"
        id="splash">
     <div
-      class="flex h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-800 to-slate-900 space-y-2.5 md:to-45% md:to-slate-950 md:bg-gradient-to-r md:from-slate-900">
+      class="flex h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-800 to-slate-900 space-y-2.5 md:to-45% md:to-slate-950 md:bg-gradient-to-r md:from-slate-950">
       <img alt="selfie of Aaron Barratt"
            width="256"
            height="256"
@@ -45,7 +45,7 @@
            src="/assets/aaron.jpeg">
       <a href="/"><h1 class="text-5xl font-semibold text-white md:text-5xl">Aaron Barratt</h1></a>
       <h2 class="text-2xl text-slate-300 md:text-2xl">Full-stack Developer</h2>
-      <div class="flex gap-x-2.5">
+      <div class="flex flex-row gap-x-2.5">
         <a href="https://github.com/banaaron" target="_blank">
           <svg aria-label="check out my GitHub"
                class="h-8 w-auto text-slate-400 hover:text-teal-300"
@@ -101,6 +101,11 @@
           </svg>
         </a>
       </div>
+      <ul class="hidden  md:flex flex-row justify-evenly gap-2.5">
+        <li><a class="hover:text-teal-300" href="#about">About</a></li>
+        <li><a class="hover:text-teal-300" href="#work">Work</a></li>
+        <li><a class="hover:text-teal-300" href="#project">Projects</a></li>
+      </ul>
     </div>
   </div>
   <!-- about me section -->
