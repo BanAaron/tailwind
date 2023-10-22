@@ -211,7 +211,7 @@
       <!-- aaronbarratt.dev -->
       <div class="text-sm space-y-1" id="project">
         <header class="text-xl font-semibold text-slate-200" id="project-title">
-          <a class="hover:text-teal-300" href="https://github.com/BanAaron/aaron-barratt-website" target="_blank">aaronbarratt.dev</a>
+          <a class="hover:text-teal-300" href="https://github.com/BanAaron/aaronbarratt-v2" target="_blank">aaronbarratt.dev</a>
         </header>
         <p>
           This website! Made to show off my HTML, CSS, and design skills. Built with <a class="text-slate-300 hover:text-teal-300" href="https://svelte.dev/" target="_blank">Svelte</a> and <a
