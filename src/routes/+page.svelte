@@ -1,4 +1,7 @@
 <script>
+  import "../app.css"
+  import selfie from "$lib/assets/selfie.jpeg"
+
   let showMobileNavMenu = "hidden"
 
   function toggleShowMobileNavMenu() {
@@ -42,7 +45,7 @@
            width="256"
            height="256"
            class="m-3 h-64 w-auto rounded-full border-2 border-teal-300 object-left shadow-xl dark:shadow-slate-950"
-           src="/assets/aaron.jpeg">
+           src={selfie}>
       <a href="/"><h1 class="text-5xl font-semibold text-white md:text-5xl">Aaron Barratt</h1></a>
       <h2 class="text-2xl text-slate-300 md:text-2xl">Full-stack Developer</h2>
       <div class="flex flex-row gap-x-2.5">
@@ -118,12 +121,14 @@
       Back in 2006 I started playing EverQuest with my Dad on his "work computer". Since then on I have been obsessed with video games, tech, and programming.
     </p>
     <p>
-      After many years (and too many games of StarCraft 2) I decided to study <a class="text-slate-300 hover:text-teal-300" href="https://www.northampton.ac.uk/courses/games-programming-bsc-hons/"
+      After many years (and too many games of StarCraft 2) I decided to study <a class="text-slate-300 hover:text-teal-300"
+                                                                                 href="https://www.northampton.ac.uk/courses/games-programming-bsc-hons/"
                                                                                  target="_blank">Computer
       Games Programming</a> at the University of Northampton.
     </p>
     <p>
-      It turns out that making video games isn't quite as fun as playing them! Instead I discovered my passion was in <a class="text-slate-300 hover:text-teal-300" href="#welcome-break">databases</a>
+      It turns out that making video games isn't quite as fun as playing them! Instead I discovered my passion was in <a class="text-slate-300 hover:text-teal-300"
+                                                                                                                         href="#welcome-break">databases</a>
       and <a class="text-slate-300 hover:text-teal-300" href="#dentsu">web development</a>.
     </p>
     <p>
@@ -143,7 +148,8 @@
       <!-- Dentsu -->
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="dentsu">2023 — present</header>
-        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.dentsu.com" target="_blank">Full-stack Developer · Dentsu</a></h1>
+        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.dentsu.com" target="_blank">Full-stack Developer ·
+          Dentsu</a></h1>
         <h2 class="text-slate-200" id="city">London</h2>
         <p>
           I design and develop robust web applications, ensuring a seamless user experience from front-end to back-end.
@@ -168,7 +174,8 @@
       <!-- welcome break -->
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="welcome-break">2019 — 2020</header>
-        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.welcomebreak.co.uk/" target="_blank">Database Admin · W. Break</a></h1>
+        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.welcomebreak.co.uk/" target="_blank">Database Admin · W.
+          Break</a></h1>
         <h2 class="text-slate-200" id="city">Milton Keynes</h2>
         <p>
           I specialized in managing and optimizing data systems to ensure the integrity, security, and performance of critical information.
@@ -180,7 +187,8 @@
       <!-- invu -->
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="invu">2018 — 2019</header>
-        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.agilico.co.uk/invu/" target="_blank">Professional Services · Invu</a></h1>
+        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.agilico.co.uk/invu/" target="_blank">Professional Services
+          · Invu</a></h1>
         <h2 class="text-slate-200" id="city">Northampton</h2>
         <p>
           Developed custom optical recognition processing solutions using C#.
@@ -192,7 +200,8 @@
       <!-- invu -->
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="invu">2017 — 2018</header>
-        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.agilico.co.uk/invu/" target="_blank">Technical Support · Invu</a></h1>
+        <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.agilico.co.uk/invu/" target="_blank">Technical Support ·
+          Invu</a></h1>
         <h2 class="text-slate-200" id="city">Northampton</h2>
         <p>
           Provided excellent third line technical support to over 1,800 customers across the UK.
@@ -214,7 +223,8 @@
           <a class="hover:text-teal-300" href="https://github.com/BanAaron/aaronbarratt-v2" target="_blank">aaronbarratt.dev</a>
         </header>
         <p>
-          This website! Made to show off my HTML, CSS, and design skills. Built with <a class="text-slate-300 hover:text-teal-300" href="https://svelte.dev/" target="_blank">Svelte</a> and <a
+          This website! Made to show off my HTML, CSS, and design skills. Built with <a class="text-slate-300 hover:text-teal-300" href="https://svelte.dev/"
+                                                                                        target="_blank">Svelte</a> and <a
           class="text-slate-300 hover:text-teal-300" href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
         </p>
         <p>
@@ -267,7 +277,8 @@
           <a class="hover:text-teal-300" href="https://github.com/BanAaron/image-cropper" target="_blank">Image Cropper</a>
         </header>
         <p>
-          A simple GUI application to bulk crop images. Made using the <a class="text-slate-300 hover:text-teal-300" href="https://pypi.org/project/Pillow/">Pillow</a> image processing library.
+          A simple GUI application to bulk crop images. Made using the <a class="text-slate-300 hover:text-teal-300" href="https://pypi.org/project/Pillow/">Pillow</a> image
+          processing library.
         </p>
         <ul class="flex flex-wrap gap-2">
           <li class="mt-1">
@@ -287,7 +298,8 @@
           <a class="hover:text-teal-300" href="https://github.com/BanAaron/tekken-backend" target="_blank">Tekken 8 API</a>
         </header>
         <p>
-          A simple API written in Go. You can request character data for <a class="text-slate-300 hover:text-teal-300" href="https://youtu.be/2hPuRQz6IlM" target="_blank">Tekken 8</a>. This is a work
+          A simple API written in Go. You can request character data for <a class="text-slate-300 hover:text-teal-300" href="https://youtu.be/2hPuRQz6IlM" target="_blank">Tekken
+          8</a>. This is a work
           in progress.
         </p>
         <p>
