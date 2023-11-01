@@ -338,6 +338,7 @@
         Coded with <a class="text-slate-300 hover:text-teal-300" href="https://www.jetbrains.com/webstorm/">IntelliJ</a>.
         Built with <a class="text-slate-300 hover:text-teal-300" href="https://svelte.dev/">Svelte</a>
         and <a class="text-slate-300 hover:text-teal-300" href="https://tailwindcss.com/">Tailwind</a>.
+        Font is <a class="text-slate-300 hover:text-teal-300" href="https://vercel.com/font">Geist</a>.
         Deployed by <a class="text-slate-300 hover:text-teal-300" href="https://vercel.com/">Vercel</a>
         <span class="text-red-600">❤️</span>
       </p>
