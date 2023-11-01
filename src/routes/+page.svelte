@@ -1,17 +1,25 @@
 <script>
   import "../app.css"
   import selfie from "$lib/assets/selfie.jpeg"
+  import "@fontsource-variable/inter"
 
   let showMobileNavMenu = "hidden"
 
   function toggleShowMobileNavMenu() {
     if (showMobileNavMenu === "hidden") {
       showMobileNavMenu = ""
-    } else {
-      showMobileNavMenu = "hidden"
+      return
     }
+    showMobileNavMenu = "hidden"
   }
+
 </script>
+
+<style>
+    * {
+        font-family: "Geist", "Inter Variable", sans-serif;
+    }
+</style>
 
 <div class="grid grid-cols-1 text-slate-50 md:grid-cols-2 xl:grid-cols-3" id="container">
   <!-- mobile burger menu -->
