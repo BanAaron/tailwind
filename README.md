@@ -16,4 +16,4 @@ This is a simple static website to show myself off and highlight some of my pers
 2. Navigate to the root directory `cd aaronbarratt-v2/`.
 3. Install with npm `npm install`.
 4. Run dev version `npm run dev`.
-5. Open http://127.0.0.1:8000 in your browser of choice.
+5. Open http://localhost:5173/ in your browser of choice.
