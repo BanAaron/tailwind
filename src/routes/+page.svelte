@@ -1,7 +1,10 @@
 <script>
   import "../app.css"
-  import selfie from "$lib/assets/selfie.jpeg"
   import "@fontsource-variable/inter"
+  import selfie from "$lib/assets/selfie.jpeg"
+  import Section from "$lib/Section.svelte"
+  import Container from "$lib/Container.svelte"
+  import Footer from "$lib/Footer.svelte"
 
   let showMobileNavMenu = "hidden"
 
@@ -15,13 +18,7 @@
 
 </script>
 
-<style>
-    * {
-        font-family: "Geist", "Inter Variable", sans-serif;
-    }
-</style>
-
-<div class="grid grid-cols-1 text-slate-50 md:grid-cols-2 xl:grid-cols-3" id="container">
+<Container>
   <!-- mobile burger menu -->
   <div aria-pressed="false"
        class="fixed top-0 right-0 z-50 m-5 origin-right md:hidden"
@@ -54,7 +51,9 @@
            height="256"
            class="m-3 h-64 w-auto rounded-full border-2 border-teal-300 object-left shadow-xl dark:shadow-slate-950"
            src={selfie}>
-      <a href="/"><h1 class="text-5xl font-semibold text-white md:text-5xl">Aaron Barratt</h1></a>
+      <a href="/">
+        <h1 class="text-5xl font-semibold text-white md:text-5xl">Aaron Barratt</h1>
+      </a>
       <h2 class="text-2xl text-slate-300 md:text-2xl">Full-stack Developer</h2>
       <div class="flex flex-row gap-x-2.5">
         <a href="https://github.com/banaaron" target="_blank">
@@ -122,9 +121,7 @@
     </div>
   </div>
   <!-- about me section -->
-  <div
-    class="col-start-1 col-end-2 flex h-screen flex-col justify-center bg-gradient-to-b from-slate-900 p-7 text-sm text-slate-400 space-y-3 to-slate-950 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 md:pl-0 lg:col-start-2 lg:col-end-4">
-    <h1 class="text-xl font-extrabold uppercase tracking-wide text-slate-100" id="about"><a class="hover:text-teal-300" href="#about">About</a></h1>
+  <Section name="about" backgroundDark={false}>
     <p>
       Back in 2006 I started playing EverQuest with my Dad on his "work computer". Since then on I have been obsessed with video games, tech, and programming.
     </p>
@@ -145,19 +142,18 @@
       href="#userzoom">support
       engineer</a>, and currently a <a class="text-slate-300 hover:text-teal-300" href="#dentsu">full-stack developer</a> at <a class="text-slate-300 hover:text-teal-300"
                                                                                                                                 href="https://www.dentsu.com/uk/en"
-                                                                                                                                target="_blank">Dentsu</a>
+                                                                                                                                target="_blank">Dentsu</a>.
     </p>
-  </div>
+  </Section>
   <!-- jobs section -->
-  <div
-    class="col-start-1 col-end-2 flex h-auto min-h-screen flex-col justify-center from-slate-900 p-7 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 md:pl-0 lg:col-start-2 lg:col-end-4">
-    <h1 class="text-xl font-extrabold uppercase tracking-wide text-slate-100" id="work"><a class="hover:text-teal-300" href="#work">Work</a></h1>
+  <Section name="work">
     <div class="grid grid-cols-1 gap-7" id="jobs">
       <!-- Dentsu -->
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="dentsu">2023 — present</header>
         <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.dentsu.com" target="_blank">Full-stack Developer ·
-          Dentsu</a></h1>
+          Dentsu</a>
+        </h1>
         <h2 class="text-slate-200" id="city">London</h2>
         <p>
           I design and develop robust web applications, ensuring a seamless user experience from front-end to back-end.
@@ -183,7 +179,8 @@
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="welcome-break">2019 — 2020</header>
         <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.welcomebreak.co.uk/" target="_blank">Database Admin · W.
-          Break</a></h1>
+          Break</a>
+        </h1>
         <h2 class="text-slate-200" id="city">Milton Keynes</h2>
         <p>
           I specialized in managing and optimizing data systems to ensure the integrity, security, and performance of critical information.
@@ -196,7 +193,8 @@
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="invu">2018 — 2019</header>
         <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.agilico.co.uk/invu/" target="_blank">Professional Services
-          · Invu</a></h1>
+          · Invu</a>
+        </h1>
         <h2 class="text-slate-200" id="city">Northampton</h2>
         <p>
           Developed custom optical recognition processing solutions using C#.
@@ -209,7 +207,8 @@
       <div class="text-sm space-y-1" id="job">
         <header class="text-xs font-semibold uppercase tracking-wide text-slate-400" id="invu">2017 — 2018</header>
         <h1 class="text-xl font-semibold text-slate-200" id="job-title"><a class="hover:text-teal-300" href="https://www.agilico.co.uk/invu/" target="_blank">Technical Support ·
-          Invu</a></h1>
+          Invu</a>
+        </h1>
         <h2 class="text-slate-200" id="city">Northampton</h2>
         <p>
           Provided excellent third line technical support to over 1,800 customers across the UK.
@@ -219,11 +218,9 @@
         </p>
       </div>
     </div>
-  </div>
+  </Section>
   <!-- projects -->
-  <div
-    class="col-start-1 col-end-2 flex h-auto min-h-screen flex-col justify-center from-slate-900 p-7 pt-40 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 md:pl-0 lg:col-start-2 lg:col-end-4">
-    <h1 class="text-xl font-extrabold uppercase tracking-wide text-slate-100" id="projects"><a class="hover:text-teal-300" href="#projects">Projects</a></h1>
+  <Section name="projects">
     <div class="grid grid-cols-1 gap-7" id="projects">
       <!-- aaronbarratt.dev -->
       <div class="text-sm space-y-1" id="project">
@@ -329,32 +326,14 @@
         </ul>
       </div>
     </div>
-  </div>
-  <!-- footer -->
-  <div
-    class="col-start-1 col-end-2 flex h-auto flex-col justify-center from-slate-900 p-7 pt-20 text-base text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 md:pl-0 lg:col-start-2 lg:col-end-4">
-    <footer class="text-center md:text-left">
-      <p class="text-xs">
-        Coded with <a class="text-slate-300 hover:text-teal-300" href="https://www.jetbrains.com/webstorm/">IntelliJ</a>.
-        Built with <a class="text-slate-300 hover:text-teal-300" href="https://svelte.dev/">Svelte</a>
-        and <a class="text-slate-300 hover:text-teal-300" href="https://tailwindcss.com/">Tailwind</a>.
-        Font is <a class="text-slate-300 hover:text-teal-300" href="https://vercel.com/font">Geist</a>.
-        Deployed by <a class="text-slate-300 hover:text-teal-300" href="https://vercel.com/">Vercel</a>
-        <span class="text-red-600">❤️</span>
-      </p>
-      <div class="flex justify-center md:hidden">
-        <a href="#splash">
-          <svg class="mt-2 h-10 fill-slate-300 hover:fill-teal-300" viewBox="-3 0 32 32" xmlns="http://www.w3.org/2000/svg">
-            <g id="icomoon-ignore">
-            </g>
-            <path
-              d="M26.221 16c0-7.243-5.871-13.113-13.113-13.113s-13.113 5.87-13.113 13.113c0 7.242 5.871 13.113 13.113 13.113s13.113-5.871 13.113-13.113zM1.045 16c0-6.652 5.412-12.064 12.064-12.064s12.064 5.412 12.064 12.064c0 6.652-5.411 12.064-12.064 12.064-6.652 0-12.064-5.412-12.064-12.064z">
-            </path>
-            <path d="M18.746 15.204l0.742-0.742-6.379-6.379-6.378 6.379 0.742 0.742 5.112-5.112v12.727h1.049v-12.727z">
-            </path>
-          </svg>
-        </a>
-      </div>
-    </footer>
-  </div>
-</div>
+  </Section>
+  <Footer>
+
+  </Footer>
+</Container>
+
+<style>
+    * {
+        font-family: "Geist", "Inter Variable", sans-serif
+    }
+</style>
