@@ -1,3 +1,7 @@
+<script>
+  import UpArrow from "$lib/UpArrow.svelte";
+</script>
+
 <div
   class="col-start-1 col-end-2 flex h-auto flex-col justify-center from-slate-900 p-7 pt-20 text-slate-400 bg-slate-950 space-y-3 md:from-20% md:from-slate-950 md:col-start-2 md:col-end-3 md:bg-gradient-to-r md:to-slate-900 md:pl-0 lg:col-start-2 lg:col-end-4">
   <footer class="text-center md:text-left">
@@ -11,15 +15,7 @@
     </p>
     <div class="flex justify-center md:hidden">
       <a href="#splash">
-        <svg class="mt-2 h-10 fill-slate-300 hover:fill-teal-300" viewBox="-3 0 32 32" xmlns="http://www.w3.org/2000/svg">
-          <g id="icomoon-ignore">
-          </g>
-          <path
-            d="M26.221 16c0-7.243-5.871-13.113-13.113-13.113s-13.113 5.87-13.113 13.113c0 7.242 5.871 13.113 13.113 13.113s13.113-5.871 13.113-13.113zM1.045 16c0-6.652 5.412-12.064 12.064-12.064s12.064 5.412 12.064 12.064c0 6.652-5.411 12.064-12.064 12.064-6.652 0-12.064-5.412-12.064-12.064z">
-          </path>
-          <path d="M18.746 15.204l0.742-0.742-6.379-6.379-6.378 6.379 0.742 0.742 5.112-5.112v12.727h1.049v-12.727z">
-          </path>
-        </svg>
+        <UpArrow/>
       </a>
     </div>
   </footer>
