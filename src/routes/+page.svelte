@@ -31,8 +31,8 @@
     <br>
     <p>
       Fast forward today and I have had the privilege to work in such roles as <a class="text-slate-300 hover:text-teal-300" href="#Welcome Break">DBA</a>, <a
-      class="text-slate-300 hover:text-teal-300" href="#userzoom">support engineer</a>, and currently a <a class="text-slate-300 hover:text-teal-300" href="#dentsu">full-stack
-      developer</a> at <a class="text-slate-300 hover:text-teal-300" href="https://www.dentsu.com/uk/en" target="_blank">Dentsu</a>.
+      class="text-slate-300 hover:text-teal-300" href="#UserZoom">support engineer</a>, and currently a <a class="text-slate-300 hover:text-teal-300" href="#Dentsu">Full Stack
+      Developer</a> at <a class="text-slate-300 hover:text-teal-300" href="https://www.dentsu.com/uk/en" target="_blank">Dentsu</a>.
     </p>
   </Section>
   <Section name="work">
