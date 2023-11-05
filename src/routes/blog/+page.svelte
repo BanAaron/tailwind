@@ -1,12 +1,9 @@
-<script lang="ts">
-	import { parse } from 'marked';
-
-	let markdown: string = `# Hello, World
-    My name is Aaron.
-    - bullet point
-    `;
+<script>
+  import Tailwind from "$lib/Tailwind.svelte";
 </script>
 
-<main>
-	<div class="preview">{@html parse(markdown)}</div>
+<main class="bg-pink-600">
+  <h1>List of articles</h1>
 </main>
+
+<Tailwind/>

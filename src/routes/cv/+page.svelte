@@ -1,1 +1,8 @@
-<h1>This is my CV</h1>
+<script lang="ts">
+    import {browser} from '$app/environment';
+    import cv from '$lib/assets/aaron_barratt.pdf';
+
+    if (browser) {
+        window.open(cv)
+    }
+</script>
