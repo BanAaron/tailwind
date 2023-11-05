@@ -1,9 +1,9 @@
 <script>
-	import selfie from '$lib/assets/selfie.jpeg';
-	import GitHubLogo from '$lib/GitHubLogo.svelte';
-	import LinkedinLogo from '$lib/LinkedinLogo.svelte';
-	import TwitterLogo from '$lib/TwitterLogo.svelte';
-	import InstagramLogo from '$lib/InstagramLogo.svelte';
+	import selfie from "$lib/assets/selfie.jpeg"
+	import GitHubLogo from "$lib/GitHubLogo.svelte"
+	import LinkedinLogo from "$lib/LinkedinLogo.svelte"
+	import TwitterLogo from "$lib/TwitterLogo.svelte"
+	import InstagramLogo from "$lib/InstagramLogo.svelte"
 </script>
 
 <div

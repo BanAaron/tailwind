@@ -1,11 +1,12 @@
 <script>
-	let showMobileNavMenu = 'hidden';
+	let showMobileNavMenu = "hidden"
+
 	function toggleShowMobileNavMenu() {
-		if (showMobileNavMenu === 'hidden') {
-			showMobileNavMenu = '';
-			return;
+		if (showMobileNavMenu === "hidden") {
+			showMobileNavMenu = ""
+			return
 		}
-		showMobileNavMenu = 'hidden';
+		showMobileNavMenu = "hidden"
 	}
 </script>
 

@@ -1,10 +1,10 @@
 <script lang="ts">
-	export let jobTitle: string;
-	export let companyName: string;
-	export let location: string;
-	export let start: string;
-	export let end: string;
-	export let url: string;
+	export let jobTitle: string
+	export let companyName: string
+	export let location: string
+	export let start: string
+	export let end: string
+	export let url: string
 </script>
 
 <div class="text-sm space-y-1" id="job">

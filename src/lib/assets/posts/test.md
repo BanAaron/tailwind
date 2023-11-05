@@ -13,9 +13,9 @@ This is why the **Crazy Frog** is the best thing to happen to music since Elvis.
 - [ ] check box
 - [x] box check
 
-> I love Furies 
+> I love Furies
 
-~ *Drew - 2023*
+~ _Drew - 2023_
 
 ## Code
 

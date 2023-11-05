@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let projectName: string;
-	export let url: string;
-	export let tags: string[];
+	export let projectName: string
+	export let url: string
+	export let tags: string[]
 </script>
 
 <div class="text-sm space-y-1" id="project">
