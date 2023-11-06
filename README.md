@@ -4,11 +4,11 @@ This is a simple static website to show myself off and highlight some of my pers
 
 ## Desktop Layout
 
-![desktop-layout](images/desktop.png)
+<img src="./images/desktop.png" alt="desktop layout" width="800">
 
 ## Mobile Layout
 
-![mobile-layout](images/mobile.png)
+<img src="./images/mobile.png" alt="mobile layout" width="350">
 
 ## Setup and Install
 
