@@ -24,7 +24,7 @@
 				<span class="text-red-600">❤️</span>
 			</p>
 			<div class="flex justify-center md:hidden">
-				<a href="#splash">
+				<a href="/">
 					<UpArrow />
 				</a>
 			</div>
@@ -35,5 +35,6 @@
 <style>
 	* {
 		font-family: "Geist", "Inter Variable", sans-serif;
+			font-size: 14px;
 	}
 </style>

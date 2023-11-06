@@ -206,9 +206,9 @@
 			</Project>
 		</div>
 	</Section>
-	<Section name="CV">
+	<Section name="cv">
 		<div class="space-y-2 gap-2">
-			<p>You can get a copy of my CV here:</p>
+			<p>You can grab a copy of my CV here:</p>
 			<Button func={openCV} text="Open" />
 			<ButtonDownload file={CV} text="Download" />
 		</div>
