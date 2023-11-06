@@ -45,7 +45,7 @@
 			<li>-</li>
 			<li><a class="hover:text-teal-300" href="#project">Projects</a></li>
 			<li>-</li>
-			<li><a class="hover:text-teal-300" href="#CV">CV</a></li>
+			<li><a class="hover:text-teal-300" href="#cv">CV</a></li>
 		</ul>
 	</div>
 </div>
