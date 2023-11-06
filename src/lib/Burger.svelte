@@ -26,12 +26,13 @@
 </div>
 <!-- nav popup thing -->
 <div
-	class="fixed top-16 right-5 w-36 to-slate-950 bg-gradient-to-r from-50% from-slate-900 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}"
+	class="fixed top-16 right-5 w-3/4 to-slate-800 bg-gradient-to-r from-50% from-slate-800 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}"
 >
 	<ul class="m-5 flex flex-col gap-2 text-xl tracking-wide">
-		<li><a href="#splash" on:click={toggleShowMobileNavMenu}>Home</a></li>
+		<li><a href="/" on:click={toggleShowMobileNavMenu}>Home</a></li>
 		<li><a href="#about" on:click={toggleShowMobileNavMenu}>About</a></li>
 		<li><a href="#work" on:click={toggleShowMobileNavMenu}>Work</a></li>
 		<li><a href="#projects" on:click={toggleShowMobileNavMenu}>Projects</a></li>
+		<li><a href="#cv" on:click={toggleShowMobileNavMenu}>CV</a></li>
 	</ul>
 </div>

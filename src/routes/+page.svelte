@@ -7,6 +7,13 @@
 	import Splash from "$lib/Splash.svelte"
 	import Job from "$lib/Job.svelte"
 	import Project from "$lib/Project.svelte"
+	import Button from "$lib/Button.svelte"
+	import CV from "$lib/assets/aaron_barratt.pdf"
+	import ButtonDownload from "$lib/ButtonDownload.svelte"
+
+	function openCV() {
+		window.open(CV)
+	}
 </script>
 
 <main class="grid grid-cols-1 text-slate-50 md:grid-cols-2 xl:grid-cols-3">
@@ -199,11 +206,19 @@
 			</Project>
 		</div>
 	</Section>
+	<Section name="cv">
+		<div class="space-y-2 gap-2">
+			<p>You can grab a copy of my CV here:</p>
+			<Button func={openCV} text="Open" />
+			<ButtonDownload file={CV} text="Download" />
+		</div>
+	</Section>
 	<Footer />
 </main>
 
 <style>
 	* {
 		font-family: "Geist", "Inter Variable", sans-serif;
+		font-size: 16px;
 	}
 </style>

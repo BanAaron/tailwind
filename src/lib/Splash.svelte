@@ -38,12 +38,14 @@
 				<InstagramLogo />
 			</a>
 		</div>
-		<ul class="hidden flex-row justify-evenly gap-2.5 md:flex">
+		<ul class="hidden flex-row justify-evenly gap-1.5 md:flex">
 			<li><a class="hover:text-teal-300" href="#about">About</a></li>
 			<li>-</li>
 			<li><a class="hover:text-teal-300" href="#work">Work</a></li>
 			<li>-</li>
 			<li><a class="hover:text-teal-300" href="#project">Projects</a></li>
+			<li>-</li>
+			<li><a class="hover:text-teal-300" href="#cv">CV</a></li>
 		</ul>
 	</div>
 </div>

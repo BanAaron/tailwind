@@ -16,7 +16,7 @@
   lg:col-start-2 lg:col-end-4 {backgroundGradient}"
 >
 	<div class="md:w-3/4">
-		<h1 class="text-xl font-extrabold uppercase tracking-wide text-slate-100 mb-3" id={name}>
+		<h1 class="text-2xl font-extrabold uppercase tracking-wider text-slate-100 mb-5" id={name}>
 			<a class="hover:text-teal-300" href="#{name}">{name}</a>
 		</h1>
 		<slot />
