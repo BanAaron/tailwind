@@ -13,8 +13,8 @@
 		{#each tags as tag, i}
 			<li class="mt-1">
 				<div
-					id={i}
-					class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+					id={i.toString()}
+					class="flex items-center rounded-full bg-teal-400/10 px-4 py-2 text-sm font-medium leading-5 text-teal-300"
 				>
 					{tag}
 				</div>
