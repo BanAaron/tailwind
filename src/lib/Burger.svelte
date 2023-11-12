@@ -26,7 +26,7 @@
 </div>
 <!-- nav popup thing -->
 <div
-	class="fixed top-16 right-5 w-3/4 to-slate-800 bg-gradient-to-r from-50% from-slate-800 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}"
+	class="fixed top-16 z-50 right-5 w-3/4 to-slate-800 bg-gradient-to-r from-50% from-slate-800 rounded-md shadow-lg shadow-black md:hidden {showMobileNavMenu}"
 >
 	<ul class="m-5 flex flex-col gap-2 text-xl tracking-wide">
 		<li><a href="/" on:click={toggleShowMobileNavMenu}>Home</a></li>
