@@ -228,7 +228,7 @@
 	}
 
 	* {
-		font-family: "geist", "Inter", serif;
+		font-family: geist, "Inter", serif;
 		font-size: 16px;
 	}
 </style>
