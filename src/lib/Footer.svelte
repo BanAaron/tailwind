@@ -35,6 +35,6 @@
 <style>
 	* {
 		font-family: "Geist", "Inter Variable", sans-serif;
-			font-size: 14px;
+		font-size: 14px;
 	}
 </style>

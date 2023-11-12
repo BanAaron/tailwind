@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let func: any
+	export let func: () => void
 	export let text: string
 </script>
 
