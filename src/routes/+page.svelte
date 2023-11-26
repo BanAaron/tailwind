@@ -10,6 +10,7 @@
 	import Button from "$lib/Button.svelte"
 	import CV from "$lib/assets/aaron_barratt.pdf"
 	import ButtonDownload from "$lib/ButtonDownload.svelte"
+	import DarkMode from "$lib/DarkMode.svelte";
 
 	function openCV() {
 		window.open(CV)
@@ -19,6 +20,7 @@
 <main class="grid grid-cols-1 text-slate-50 md:grid-cols-2 xl:grid-cols-3">
 	<Burger />
 	<Splash />
+	<DarkMode />
 	<Section name="about" backgroundDark={false}>
 		<p>
 			Back in 2006 I started playing EverQuest with my Dad on his "work computer". Since then on I
