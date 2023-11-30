@@ -27,25 +27,25 @@
 		<br />
 		<p>
 			After many years (and too many games of StarCraft 2) I decided to study <a
-			class="text-slate-300 hover:text-teal-300"
-			href="https://www.northampton.ac.uk/courses/games-programming-bsc-hons/"
-			target="_blank">Computer Games Programming</a
-		> at the University of Northampton.
+				class="text-slate-300 hover:text-teal-300"
+				href="https://www.northampton.ac.uk/courses/games-programming-bsc-hons/"
+				target="_blank">Computer Games Programming</a
+			> at the University of Northampton.
 		</p>
 		<br />
 		<p>
 			It turns out that making video games isn't quite as fun as playing them! Instead I discovered
 			my passion was in <a class="text-slate-300 hover:text-teal-300" href="#Welcome Break"
-		>databases</a
-		>
+				>databases</a
+			>
 			and <a class="text-slate-300 hover:text-teal-300" href="#Dentsu">web development</a>.
 		</p>
 		<br />
 		<p>
 			Fast forward today and I have had the privilege to work in such roles as <a
-			class="text-slate-300 hover:text-teal-300"
-			href="#Welcome Break">DBA</a
-		>, <a class="text-slate-300 hover:text-teal-300" href="#UserZoom">support engineer</a>, and
+				class="text-slate-300 hover:text-teal-300"
+				href="#Welcome Break">DBA</a
+			>, <a class="text-slate-300 hover:text-teal-300" href="#UserZoom">support engineer</a>, and
 			currently a
 			<a class="text-slate-300 hover:text-teal-300" href="#Dentsu">Full Stack Developer</a>
 			at
@@ -151,10 +151,10 @@
 			>
 				<p>
 					This website! Made to show off my HTML, CSS, and design skills. Built with <a
-					class="text-slate-300 hover:text-teal-300"
-					href="https://svelte.dev/"
-					target="_blank">Svelte</a
-				>
+						class="text-slate-300 hover:text-teal-300"
+						href="https://svelte.dev/"
+						target="_blank">Svelte</a
+					>
 					and
 					<a
 						class="text-slate-300 hover:text-teal-300"
@@ -183,10 +183,10 @@
 			>
 				<p>
 					A simple GUI application to bulk crop images. Made using the <a
-					class="text-slate-300 hover:text-teal-300"
-					href="https://pypi.org/project/Pillow/"
-					target="_blank">Pillow</a
-				> image processing library.
+						class="text-slate-300 hover:text-teal-300"
+						href="https://pypi.org/project/Pillow/"
+						target="_blank">Pillow</a
+					> image processing library.
 				</p>
 			</Project>
 			<!-- tekken -->
@@ -197,10 +197,10 @@
 			>
 				<p>
 					A simple API written in Go. You can request character data for <a
-					class="text-slate-300 hover:text-teal-300"
-					href="https://youtu.be/2hPuRQz6IlM"
-					target="_blank">Tekken 8</a
-				>. This is a work in progress.
+						class="text-slate-300 hover:text-teal-300"
+						href="https://youtu.be/2hPuRQz6IlM"
+						target="_blank">Tekken 8</a
+					>. This is a work in progress.
 				</p>
 				<p>I plan to build my own site that consumes this data to help players learn the game.</p>
 			</Project>
@@ -217,8 +217,8 @@
 </main>
 
 <style>
-    * {
-        font-family: "Geist", "Inter Variable", sans-serif;
-        font-size: 16px;
-    }
+	* {
+		font-family: "Geist", "Inter Variable", sans-serif;
+		font-size: 16px;
+	}
 </style>
