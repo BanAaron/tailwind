@@ -169,10 +169,10 @@
 			<!-- resolution changer -->
 			<Project
 				projectName="Resolution Changer"
-				tags={["Python", "Pystray", "Windows API"]}
+				tags={["Go", "Systray", "Windows API"]}
 				url="https://github.com/BanAaron/resolution-changer"
 			>
-				<p>A simple system tray application to switch between resolutions with 1 or 2 clicks.</p>
+				<p>A simple system tray application to switch between resolutions and refresh rates.</p>
 				<p>I made this to quickly switch between 16:9 for gaming and 32:9 for productivity.</p>
 			</Project>
 			<!-- image cropper -->
@@ -192,7 +192,7 @@
 			<!-- tekken -->
 			<Project
 				projectName="Tekken 8 API"
-				tags={["Go", "API", "PostgreSQL", "Supase"]}
+				tags={["Go", "API", "PostgreSQL", "Supabase"]}
 				url="https://github.com/BanAaron/tekken-backend"
 			>
 				<p>
